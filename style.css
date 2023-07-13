@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(70,190,194);
+}
+.container h1{
+    background-color: rgb(111, 199, 202);
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.p{
+    font-size: 36px;
+}
+p,.score{
+    text-align: center;
+    color: rgb(12, 12, 12);
+   padding-top: 17px;
+   font-size: 26px;
+ 
+}
+.block{
+    
+    background-color: #fff;
+    max-width: 40%;
+    margin-top: 60px;
+    margin-left: 30%;
+    color: black;
+    border-radius: 20px;
+}
+.container h2{
+   
+    color: rgb(226, 16, 16);
+    font-size: 26px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    max-width: 120px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.timer{
+    display: flex;
+   color: rgb(10, 10, 10);
+    justify-content: center;
+    max-width: 60%;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+.timer button{
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  font-size: 17px;
+    margin-right: 50px;
+    color: rgb(14, 13, 13);
+    background-color: transparent;
+    border: 1px solid rgb(12, 12, 12);
+    border-radius: 10px;
+}
+
+.input-text input{
+    width: 80%;
+    height: 40px;
+    margin-left: 55px;
+    border: 1px solid rgb(107, 169, 194);
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
